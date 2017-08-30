@@ -1,0 +1,1 @@
+An etch-a-sketch made with divs to practice jquery and javascript.
