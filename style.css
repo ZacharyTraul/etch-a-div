@@ -1,0 +1,60 @@
+#header {
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Nova Mono', monospace;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+p {
+  font-family: 'Nova Mono', monospace;
+}
+
+#instuctions{
+  margin: 0 auto;
+  font-weight: bolder;
+  text-align: center;
+  width: 300px;
+}
+
+#side * {
+  display: inline-block;
+}
+
+input[type=number] {
+  width: 50px;
+}
+
+#etcher {
+  width: 720px;
+  height: 720px;
+  margin: 0 auto;
+  position: relative;
+  top: 30px; 
+  font-size: 0;
+  transition: box-shadow 1s linear;
+}
+
+.tile {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 1px;
+}
+
+.red-shadow {
+  box-shadow: 0 0 50px #FF0000;
+}
+
+.green-shadow {
+  box-shadow: 0 0 50px #00FF00;
+}
+
+.blue-shadow {
+  box-shadow: 0 0 50px #0000FF;
+}
